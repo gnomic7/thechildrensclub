@@ -39,8 +39,9 @@
 
     </main>
     <script>
-        const goToSignUp = () => {
+        const goToSignUp = (e) => {
             alert('Yay, you are signed up! Congratulations');
+            e.preventDefaults();
         }
     </script>
 
